@@ -21,6 +21,9 @@ from firebase_admin import credentials, firestore, initialize_app
 
 # Use the path from the environment variable to initialize Firebase
 cred = credentials.Certificate(FIREBASE_CREDENTIALS)
+
+print(cred)
+print('cred')
 initialize_app(cred)
 
 # Create Firestore client
