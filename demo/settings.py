@@ -32,7 +32,6 @@ initialize_app(cred)
 # Create Firestore client
 db = firestore.client()
 
-print("Firestore client initialized successfully!")
 
 
 
