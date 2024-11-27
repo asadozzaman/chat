@@ -14,7 +14,7 @@ import firebase_admin
 
 # Initialize Firestore
 # from firebase_config import firebase_app  
-from demo.settings import db
+from config.database import db
 
 
 

@@ -14,7 +14,7 @@ from django.http import JsonResponse
 
 from firebase_admin import auth, firestore
 # Initialize Firestore
-from demo.settings import db
+from config.database import db
 
 
 def registration(request):
